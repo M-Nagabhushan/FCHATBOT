@@ -235,7 +235,7 @@ def initialize_llm():
     #load_dotenv()
     #api_key = os.getenv("GOOGLE_API")
     genai.configure(api_key="AIzaSyA-0shei2WxKeqPmVMzKiy8xblHZz8-tRQ")
-    return ChatGoogleGenerativeAI(model="gemini-2.0-flash")
+    return ChatGoogleGenerativeAI(model="gemini-1.5-flash")
 
 
 # Function to delete a chat from history
