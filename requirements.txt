@@ -12,4 +12,4 @@ faiss-cpu
 langchain-google-genai
 sentence-transformers
 langchain-community
-py
+PyAudio
