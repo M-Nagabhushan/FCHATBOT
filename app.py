@@ -234,7 +234,7 @@ def export_chat():
 def initialize_llm():
     #load_dotenv()
     #api_key = os.getenv("GOOGLE_API")
-    genai.configure(api_key=secret)
+    genai.configure(api_key="AIzaSyA-0shei2WxKeqPmVMzKiy8xblHZz8-tRQ")
     return ChatGoogleGenerativeAI(model="gemini-2.0-flash")
 
 
