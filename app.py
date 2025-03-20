@@ -9,7 +9,7 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
 import pyttsx3
 import speech_recognition as sr
-from langchain.vectorstores import FAISS
+from langchain_community.vectorstores import FAISS
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 #from langchain_community.embeddings import OllamaEmbeddings
 from langchain.docstore.document import Document
