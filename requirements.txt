@@ -8,7 +8,7 @@ langchain
 langchain-core
 pyttsx3==2.90
 SpeechRecognition==3.10.1
-faiss-cpu==1.7.4 --find-links https://dl.fbaipublicfiles.com/faiss/wheel/faiss_cpu-1.7.4-cp310-cp310-win_amd64.whl
+faiss-gpu-cu11
 langchain-google-genai
 sentence-transformers==2.5.1
 langchain-community==0.0.29
