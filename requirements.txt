@@ -1,0 +1,15 @@
+streamlit
+PyMuPDF
+pandas
+python-docx
+python-dotenv
+google-generativeai
+langchain
+langchain-core
+pyttsx3
+SpeechRecognition
+faiss-cpu
+langchain-google-genai
+sentence-transformers
+langchain-community
+py
