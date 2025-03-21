@@ -2,7 +2,7 @@ import streamlit as st
 import fitz
 import pandas as pd
 from docx import Document as Dip
-#from dotenv import load_dotenv
+from dotenv import load_dotenv
 import google.generativeai as genai
 from langchain.prompts import ChatPromptTemplate, PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
@@ -232,10 +232,10 @@ def export_chat():
 
 # Initialize LLM
 def initialize_llm():
-    #load_dotenv()
-    #api_key = os.getenv("GOOGLE_API")
-    genai.configure(api_key="AIzaSyA-0shei2WxKeqPmVMzKiy8xblHZz8-tRQ")
-    return ChatGoogleGenerativeAI(model="gemini-1.5-flash")
+    load_dotenv()
+    api = os.getenv("GOOGLE_API")
+    genai.configure(api_key=api)
+    return ChatGoogleGenerativeAI(model="gemini-2.0-flash")
 
 
 # Function to delete a chat from history
